@@ -61,6 +61,20 @@ ___________________________
     └── services.proto
 ```
 - **`/web`**: Veb statik fayllar: `/img`, `/css`, `/js`, `/.html`
+```text
+/web
+├── static
+│   ├── css
+│   │   ├── style.css
+│   ├── js
+│   │   ├── script.js
+│   └── images
+│       ├── logo.png
+└── templates
+    ├── layout.html
+    ├── index.html
+    └── about.html
+```
 
 - **`/configs`**: Konfiguratsiya fayli shablonlari yoki standart konfiguratsiyalar.
 
