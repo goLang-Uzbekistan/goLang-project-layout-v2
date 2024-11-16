@@ -83,6 +83,13 @@ ___________________________
 ├── config.toml
 └── example.env
 ```
+- **`/scripts`**: voqti kelsa tushunib olasiz 😁
+```text
+/scripts
+├── build.sh
+├── deploy.sh
+└── test.sh
+```
 
 - **`/build`**: agar Proyektiz finalga kelsa, ushanda foydasi tegadi `go build`
 
