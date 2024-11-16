@@ -7,7 +7,7 @@ _Hammaga Assalomu Alaykum) Sabr qilib ko'ring videoni va bu video faqat proyektg
 ___________________________
 
 ## Golang standard project layout
-* v1: Standard Go Project Layout: https://github.com/golang-standards/project-layout/
+* Project Layout: https://github.com/golang-standards/project-layout/
 
 - **`/cmd yoki /app`**: bu folder da main.go file li turadi.
 
