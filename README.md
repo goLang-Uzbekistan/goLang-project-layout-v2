@@ -10,6 +10,19 @@ ___________________________
 * Project Layout: https://github.com/golang-standards/project-layout/
 
 - **`/cmd yoki /app`**: bu folder da main.go file li turadi.
+```text
+/cmd
+├── 1app
+│   ├── main.go
+│   └── go.mod
+└── 2app
+    ├── main.go
+    └── go.mod
+
+```
+- man tahminan misol keltirayapman 😅
+
+
 
 [//]: # (- **`/pkg`**: Kutubxona kodini o'z ichiga oladi. Boshqa loyihalar ushbu paketlarni kutubxona sifatida import qiladi.)
 
