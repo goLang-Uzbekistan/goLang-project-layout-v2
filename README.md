@@ -1,6 +1,6 @@
-# goLang-project-layout-v2
-## Maslahat beraman ko'ring shu videoni:
+# goLang Proyekt yaratish structurasi:
 _Hammaga Assalomu Alaykum) Sabr qilib ko'ring videoni va bu video faqat proyektga emas, shaxsiy hayotingizdaham foyda bo'ladi degan umidaman)_
+### Maslahat beraman ko'ring shu videoni:
 * **Tartib va Intizom | Palapartish qilingan ishdan natija kutish axmoqlik!**
   https://www.youtube.com/watch?v=5SAt-CPijd4/
 
