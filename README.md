@@ -77,6 +77,12 @@ ___________________________
 ```
 
 - **`/configs`**: Konfiguratsiya fayli shablonlari yoki standart konfiguratsiyalar.
+```text
+/configs
+├── config.yaml
+├── config.toml
+└── example.env
+```
 
 - **`/build`**: agar Proyektiz finalga kelsa, ushanda foydasi tegadi `go build`
 
