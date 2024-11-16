@@ -18,7 +18,6 @@ ___________________________
 └── 2app
     ├── main.go
     └── go.mod
-
 ```
 - man tahminan misol keltirayapman 😅
 
@@ -27,7 +26,15 @@ ___________________________
 [//]: # (- **`/pkg`**: Kutubxona kodini o'z ichiga oladi. Boshqa loyihalar ushbu paketlarni kutubxona sifatida import qiladi.)
 
 - **`/internal`**: bu folder'da /models, /middleware, /database, /handlers xullas asosiy proyetga oid kodlar buladi.
-
+```text
+/internal
+├── auth
+│   ├── auth.go
+│   └── auth_test.go
+└── storage
+    ├── storage.go
+    └── storage_test.go
+```
 - **`/vendor`**: `go mod vendor` - bu go.mod barcha packages offline yuklab oladi)
 
 - **`/api`**: OpenAPI/Swagger spetsifikatsiyalari, JSON sxema fayllari yoki protokolni saqlash fayllari turadi.
