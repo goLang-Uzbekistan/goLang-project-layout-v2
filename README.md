@@ -92,6 +92,17 @@ ___________________________
 ```
 
 - **`/build`**: agar Proyektiz finalga kelsa, ushanda foydasi tegadi `go build`
+```text
+/build
+├── docker
+│   ├── Dockerfile
+│   └── entrypoint.sh
+├── scripts
+│   ├── build.sh
+│   └── deploy.sh
+└── artifacts
+    └── README.md
+```
 
 - **`/deployments`**: IaaS, PaaS, tizim va docker-konteyner va boshqa hosting deploy konfiguratsiyalari saqlanadi.
 
