@@ -1,4 +1,4 @@
-# goLang Proyekt yaratish structurasi:
+# goLang Proyekt yaratish strukturasi:
 _Hammaga Assalomu Alaykum) Sabr qilib ko'ring videoni va bu video faqat proyektga emas, shaxsiy hayotingizdaham foyda bo'ladi degan umidaman)_
 ### Maslahat beraman ko'ring shu videoni:
 * **Tartib va Intizom | Palapartish qilingan ishdan natija kutish axmoqlik!**
