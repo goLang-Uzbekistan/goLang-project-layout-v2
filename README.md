@@ -152,8 +152,8 @@ _______________
 └── format
     └── format.go
 ```
+// tools/build/build.go
 ```go
-// /tools/build/build.go
 package main
 
 import (
@@ -174,50 +174,6 @@ func main() {
     fmt.Println("Build completed successfully!")
 }
 ```
-```go
-// /tools/lint/lint.go
-package main
-
-import (
-    "fmt"
-    "os/exec"
-)
-
-func main() {
-    fmt.Println("Running linters...")
-    cmd := exec.Command("golangci-lint", "run")
-    cmd.Stdout = exec.Command("cat").Stdout
-    cmd.Stderr = exec.Command("cat").Stderr
-    if err := cmd.Run(); err != nil {
-        fmt.Printf("Error running linters: %v\n", err)
-        return
-    }
-    fmt.Println("Linting completed successfully!")
-}
-```
-```go
-// /tools/format/format.go
-package main
-
-import (
-    "fmt"
-    "os"
-    "os/exec"
-)
-
-func main() {
-    fmt.Println("Formatting Go files...")
-    cmd := exec.Command("gofmt", "-w", "./...") // Format all Go files
-    cmd.Stdout = os.Stdout
-    cmd.Stderr = os.Stderr
-    if err := cmd.Run(); err != nil {
-        fmt.Printf("Error formatting code: %v\n", err)
-        os.Exit(1)
-    }
-    fmt.Println("Code formatting completed successfully!")
-}
-```
-
 
 - **`/docs`**: Proyektizga oid docslar saqlab quyishingiz mumkin,
 ```text
