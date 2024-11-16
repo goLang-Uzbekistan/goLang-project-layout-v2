@@ -21,8 +21,6 @@ ___________________________
 ```
 - man tahminan misol keltirayapman 😅
 
-
-
 [//]: # (- **`/pkg`**: Kutubxona kodini o'z ichiga oladi. Boshqa loyihalar ushbu paketlarni kutubxona sifatida import qiladi.)
 
 - **`/internal`**: bu folder'da /models, /middleware, /database, /handlers xullas asosiy proyetga oid kodlar buladi.
