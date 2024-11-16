@@ -36,9 +36,30 @@ ___________________________
     └── storage_test.go
 ```
 - **`/vendor`**: `go mod vendor` - bu go.mod barcha packages offline yuklab oladi)
+```text
+/vendor
+├── github.com
+│   └── someuser
+│       └── somepackage
+│           ├── somefile.go
+│           └── ...
+└── golang.org
+    └── x
+        └── net
+            ├── somefile.go
+            └── ...
+```
 
 - **`/api`**: OpenAPI/Swagger spetsifikatsiyalari, JSON sxema fayllari yoki protokolni saqlash fayllari turadi.
-
+```text
+/api
+├── openapi.yaml
+├── swagger.json
+├── other.json
+└── protobuf
+    ├── messages.proto
+    └── services.proto
+```
 - **`/web`**: Veb statik fayllar: `/img`, `/css`, `/js`, `/.html`
 
 - **`/configs`**: Konfiguratsiya fayli shablonlari yoki standart konfiguratsiyalar.
