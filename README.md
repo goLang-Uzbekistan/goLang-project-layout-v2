@@ -23,7 +23,7 @@ ___________________________
 
 [//]: # (- **`/pkg`**: Kutubxona kodini o'z ichiga oladi. Boshqa loyihalar ushbu paketlarni kutubxona sifatida import qiladi.)
 
-- **`/internal`**: bu folder'da /models, /middleware, /database, /handlers xullas asosiy proyetga oid kodlar buladi.
+- **`/internal`**: bu folder'da /handlers, /routes, /models, /middleware, /database xullas asosiy proyetga oid kodlar buladi.
 ```text
 /internal
 ├── auth
