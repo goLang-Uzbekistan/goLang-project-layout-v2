@@ -12,10 +12,10 @@ ___________________________
 - **`/cmd yoki /app`**: bu folder da main.go file li turadi.
 ```text
 /cmd
-├── 1app
+├── GIN
 │   ├── main.go
 │   └── go.mod
-└── 2app
+└── Gorilla
     ├── main.go
     └── go.mod
 ```
