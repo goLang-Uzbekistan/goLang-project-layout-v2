@@ -136,7 +136,7 @@ echo "Deployment completed!"
 └── README.md
 ```
 
-- **`/test`**: Proyektiz sinovdan o'tkazish/testing kodlari.
+- **`/test`**,  **`/testing`**: Proyektiz sinovdan o'tkazish/testing kodlari.
 ```text
 /test
 ├── integration_test.go
