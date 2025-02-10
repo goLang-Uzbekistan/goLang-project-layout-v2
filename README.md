@@ -4,6 +4,9 @@ _Hammaga Assalomu Alaykum) Sabr qilib ko'ring videoni va bu video faqat proyektg
 * **Tartib va Intizom | Palapartish qilingan ishdan natija kutish axmoqlik!**
   https://www.youtube.com/watch?v=5SAt-CPijd4/
 
+## Testing example getAlbums project:
+https://go.dev/doc/tutorial/web-service-gin/
+
 ___________________________
 
 ## Golang standard project layout
