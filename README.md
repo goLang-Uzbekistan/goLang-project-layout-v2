@@ -229,7 +229,7 @@ _________
 # Kod editorlar haqida
 Nomi  | Shaxsiy fikrim
 --- | ---
-**JetBrains**: https://www.jetbrains.com/  | `Rolls Royce +` ga o‘xshaydi va komport va qulaylik, bergan pulimga achinmayman. 
+**JetBrains**: https://www.jetbrains.com/  | `Rolls Royse PRO` ga o‘xshaydi va komfort va qulaylik, bergan pulimga achinmayman, agar siz `visa`dan to‘lov qilishda muomo bo‘lsa menga telegramdan yozing: `@asaKeW`
 **GoLand**: https://www.jetbrains.com/go/  | `Rolls Royce` ga o‘xshaydi va qulay va zur va RUN qilishda juda oson. reDuber va test qilishda ham juda qulay.
 **ZED**: https://zed.dev/  | `Ferrari`ga o'xshaydi va juda tez va qulay, faqat xozircha (MacOS, Linux) larga ishlaydi. Windowschilar sabr qilasizlar xD
 **Visual Studio Code**: https://code.visualstudio.com/  | Universal dastur, tez va qulay va juda mashhur.
