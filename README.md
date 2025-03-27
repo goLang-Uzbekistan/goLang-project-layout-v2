@@ -92,12 +92,6 @@ ___________________________
 ├── deploy.sh
 └── test.sh
 ```
-misol: `build.sh`
-```bash
-echo "Building the application..."
-go build -o myapp ./cmd/myapp
-echo "Build completed!"
-```
 misol: `deploy.sh` 
 ```bash
 echo "Deploying the application..."
@@ -106,7 +100,24 @@ git pull origin main
 echo "Deployment completed!"
 ```
 --------------
-
+## go build
+### Linux (amd64)
+```bash
+GOOS=linux GOARCH=amd64 go build -o app-linux-amd64
+````
+### macOS (amd64)
+```bash
+GOOS=darwin GOARCH=amd64 go build -o app-darwin-amd64
+```
+### macOS (arm64 - M1/M2)
+```bash
+GOOS=darwin GOARCH=arm64 go build -o app-darwin-arm64
+```
+### Windows (amd64)
+```bash
+GOOS=windows GOARCH=amd64 go build -o app-windows-amd64.exe
+```
+__________________________
 - **`/build`**: agar Proyektiz finalga kelsa, ushanda foydasi tegadi `go build`
 ```text
 /build
