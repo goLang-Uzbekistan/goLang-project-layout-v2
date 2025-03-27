@@ -117,7 +117,6 @@ GOOS=darwin GOARCH=arm64 go build -o app-darwin-arm64
 ```bash
 GOOS=windows GOARCH=amd64 go build -o app-windows-amd64.exe
 ```
-__________________________
 - **`/build`**: agar Proyektiz finalga kelsa, ushanda foydasi tegadi `go build`
 ```text
 /build
@@ -130,6 +129,7 @@ __________________________
 └── artifacts
     └── README.md
 ```
+__________________________
 
 - **`/deployments`**: IaaS, PaaS, tizim va docker-konteyner va boshqa hosting deploy konfiguratsiyalari saqlanadi, yoki boshqa fayllar.
 ```text
@@ -214,7 +214,7 @@ func main() {
 _________________
 # autoUpdate: air
 1. Plus tarafi: agar Windows/Mac/Linux Terminal autoUpdate air buladi va juda qulay.
-2. Minus tarafi: agar siz **goLand** ishlatsangiz xar safar (CTRL + S) bosib zzz bulib ketasizlar xD
+2. Minus tarafi: agar siz **goLand** ishlatsangiz xar safar `CTRL + S` bosib zzz bulib ketasizlar xD, `CTRL + S` dan keyin autoUpdate buladi... 
 
 ```bash
 go install github.com/air-verse/air@latest
@@ -226,27 +226,5 @@ air
 ```
 _________
 
-## Testing the API for terminal
-docs: https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/
-```bash
-curl -I http://localhost:8000/api/healthChecker ## GET request
-```
 
-```bash
-curl -i -X HEAD http://localhost:8000/api/healthChecker ## HEAD request
-```
-
-```bash
-curl -X GET "http://localhost:8000/api/healthChecker" -H "accept: application/json" ## GET request
-```
-
-Agar siz uni yanada chiroyli ko'rsatishni istasangiz, `jq` tavsiya qilaman:
-```bash
-curl http://localhost:8000/api/healthChecker | jq . ## GET request
-```
-
-## Curl options
-    -I or --head - fetch the headers only
-    -i, --include - include the HTTP response headers in the output
-    -X, --request - specify a custom request method to use when communicating with the HTTP server (GET, PUT, DELETE&)
 
